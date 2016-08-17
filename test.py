@@ -1,5 +1,2 @@
-x = [1]
-y = x
-print(y)
-x =[]
-print(y)
+x =123
+print(len(x))
