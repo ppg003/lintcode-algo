@@ -14,7 +14,6 @@ class Solution:
 
         for i in range(0, offset):
             s[i] = tmp[i]
-a
 s = "abcdefg"
 offset = 3
 x = Solution()
