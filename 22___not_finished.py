@@ -8,5 +8,4 @@ class Solution(object):
         for i in range(len(nestedList)):
             if isinstance(nestedList[i], int):
                 res.append(nestedList[i])
-            else:
 

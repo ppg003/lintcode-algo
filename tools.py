@@ -50,3 +50,8 @@ def new_chain(list_val):
     this_node.next = None
 
     return head
+
+
+def ten2two(num, length):
+    res = bin(num & length)[2:]
+    return res

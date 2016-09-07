@@ -1,2 +1,2 @@
-x = 5
-print(isinstance(x, (int, str, )))
+x = "a"
+print(chr(97))
