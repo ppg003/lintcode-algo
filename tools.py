@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 import random
-
+import logging
 
 class ListNode:
     def __init__(self, x):
@@ -55,3 +55,8 @@ def new_chain(list_val):
 def ten2two(num, length):
     res = bin(num & length)[2:]
     return res
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="[%(levelname)s] %(message)s"
+)
